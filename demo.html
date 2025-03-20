@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.head_main{
+    background-color: #007aff;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007aff;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    padding: 0px 30px;
+    /* display:flex; */
+}
+.logo img{
+    width: 200px;
+    height: auto;
+
+}
+.nav .logo{
+    height: 80%;
+    width: 80% ;
+}
+
+.nav .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav_main ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 23px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.get_start_btn{
+    border: none;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: 600px;
+    border: 20px;
+    border-radius: 20px;
+    background-color: #095db7 ;
+    color: white;
+}
+.drop_down_main {
+    position: relative;
+}
+.drop_down {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background-color: white;
+    display: none;
+}
+.drop_down ul {
+    display: none !important;
+    flex-direction: column;
+    padding: 3px 12px;
+    font-size: 18px;
+    color: #333;
+}
+.drop_down ul li{
+    padding: 8px 12px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.nav ul{
+    justify-content: center;
+    list-style: none;
+    background-color: #007aff;
+    padding: 0;
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="head main">
+        <nav class="nav">
+            <div class="logo">
+                <img src="hero-img.png" alt="">
+            </div>
+            <div class="nav_main">
+                <ul>
+                      <li class="nav_main" href="#">Click</li>
+                      <li class="nav_main" href="#">Click </li>
+                      <li class="nav_main" href="#">Click </li>
+                      <li class="nav-link drop_down_main"><a href="#">Click</a>
+                          <div class="drop_down">
+                              <ul>
+                                  <li>Link</li>
+                                  <li>Link</li>
+                                  <li>Link</li>
+                              </ul>
+                            </div>
+                    
+                        </li>
+                    <li class="nav_link"><a href=""></a>Click</li>
+                    <li class="nav_link"><a href=""></a>Click</li>
+                    <li class="nav_link"><a href=""></a>Click</li>
+                    <button class="get_start_btn"> Get Started</button>
+
+                </ul>
+            </div>
+        </nav>
+        <style>
+            .hero_mian{
+                display: flex;
+            }
+            .hero_mian .hero_left,
+            .hero_mian .hero_right {
+                width: 50;
+            }
+            .hero_mian .hero_left{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 80px;
+                gap: 20px;
+            
+            }
+        </style>
+    </div>
+</body>
+</html>
