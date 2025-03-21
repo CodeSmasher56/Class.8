@@ -1,0 +1,32 @@
+
+    /* .nav_link:first-child{
+        color: blue;
+    } */
+    /* .nav_link:last-child{
+        color: blue;
+    } */
+    /* li:nth-last-child(5n){
+        color: blue;
+    } */
+    /* li:nth-last-of-type(1){
+        background-color: rgb(102, 255, 71);
+        color: rgb(231, 25, 25);
+    } */
+    /*is main sirf parent ka akh hi child ko call krty hn (a parent only one child) */
+        /* li:only-child{ 
+        background-color: rgb(102, 255, 71);
+        color: rgb(231, 25, 25);
+    } */
+    /* /* only-of-typ */
+
+    
+    /* li:not(.abc){
+        background-color: rgb(102, 255, 71);
+        color: rgb(231, 25, 25);
+    } */
+    /* div:not(#abc){
+        background-color: rgb(102, 255, 71);
+        color: rgb(231, 25, 25);
+    } */
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo Class</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- :first_child -->
+     <!-- :last_child -->
+      <!-- :nth_child -->
+      <!-- :nth-last-child -->
+      <!-- :nth-of-type -->
+      <!-- :nth-last-of-type -->
+       <!-- :only-child -->
+       <!-- :only-of-type -->
+       <!-- :empty -->
+        <!-- :not(.#) -->
+         <!-- :lang() -->
+          <!-- is:(koi b class select krty hn ) p{} -->
+           <!-- :hover  -->
+           <style>
+            /* div:hover{
+               color: blue;
+               background-color: aqua;
+               transition: all 1s ease-in-out;
+           } */
+           div:lang(eng){
+             background-color: rgb(102, 255, 71);
+             color: rgb(231, 25, 25);
+           }
+           
+           </style>
+</head>
+
+<body>
+ <ul>
+<li class="nav_link">Link No1</li>
+<li class="nav_link">Link No2</li>
+<li class="nav_link abc">Link No3 abc kithy gai c</li>
+<li class="nav_link">Link No4</li>
+<li class="nav_link">Link No5</li>
+<li class="nav_link">Link No6</li>
+<li class="nav_link">Link No7</li>
+
+ </ul> 
+ 
+ <div> <!-- only-child -->
+    <li class="nav_link">Link No 0</li>
+ </div>
+  <!-- only-of-typ )a parent only one child which is selected -->
+ <ul>
+    <li>Ma hoon Gyan sb sy takat war</li>
+ </ul>
+ <!-- (:empty) is main agr akh b space add ho to ye ni kary gi -->
+ <ul> 
+    <li>
+
+    </li>
+ </ul>
+ <li class="nav_link">Link No1</li>
+ <li class="nav_link">Link No2</li>
+ <li class="nav_link abc">Link No3 abc kithy gai c</li>
+ <li class="nav_link">Link No4</li>
+ <li class="nav_link">Link No5</li>
+ <ul>
+    
+ </ul>
+
+ <div>
+    <div id="nav_link abc"></div>
+    <div id="nav_link "></div>
+    <div id="nav_link "></div>
+    <div id="nav_link abc"></div>
+ </div>
+</ul>
+
+ <div>
+    <li class="nav_link">Link No1</li>
+    <li class="nav_link">Link No2</li>
+    <li class="nav_link" >Mujy english ati ha</li>
+    <li class="nav_link">Link No4</li>
+    <li class="nav_link">Link No5</li>
+    <ul>
+ </div>
+<div class="para">
+
+<div class="nav_link">1 Chl nikl</div>
+<div class="nav_link" >2 O jaa tor ja </div>
+<div class="nav_link" lang="eng">3 Thk ha bhai </div>
+<div class="nav_link">4 Ok by to all</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
